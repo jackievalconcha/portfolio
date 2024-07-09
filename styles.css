@@ -4,10 +4,11 @@
     font-style: normal;
 }
 body {
-    background-color: whitesmoke;
+    background-color: ghostwhite;
     margin: 0px;
     padding: 0px;
-    height: 100%
+    height: 100%;
+    overflow-x: hidden;
    
 }
 
@@ -16,7 +17,7 @@ header {
     flex-direction: column;
     align-items: center;
     padding: 10px;
-    height: 20%;
+    height: 30vh;
 }
 
 header h1{
@@ -24,8 +25,17 @@ header h1{
     font-size: 300%;
 }
 
+main {
+    height: 70vh;
+}
+
+.section_project {
+    font-weight: bolder;
+}
+
 #project_section {
     background-color: lightgrey;
+ 
 }
 
 #project_section h2{
@@ -101,6 +111,49 @@ header h1{
     transform: scale(1.17);
 }
 
-footer {
+#skill_section {
+    background-color: whitesmoke;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#skill_section table, thead, tr, th {
+    border: 1px solid;
+    font-weight: bold;
+ 
+}
+
+#skill_section table, tr, td {
+    border: 1px solid;
+    text-align: center;
+ 
+}
+#skill_section th {
+    width: 30%;
+    background-color:whitesmoke;
+ 
+}
+
+#skill_section h2{
+    text-align: center;
+    margin: 0px;
     padding: 10px;
+}
+
+.section_skill {
+    font-weight: bolder;
+}
+
+#professional_link a img {
+   height: 20px;
+}
+footer {
+    text-align: center;
+    height: 10vh;
+}
+
+footer p {
+    font-size: smaller;
+    font-weight: bold;
 }
