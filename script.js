@@ -1,0 +1,11 @@
+let favoriteColor = "black";
+let age = 17;
+const name = "Jackie";
+let isMinor = true;
+let favoriteColors = ["white", "blue", "red"];
+let myBestFriendFavoriteColors = [...favoriteColors];
+favoriteColors[2] = "yellow";
+alert(`My favorite colors: ${favoriteColors}`);
+myBestFriendFavoriteColors[0] = "grey";
+alert(`My best friend's favorite colors: ${myBestFriendFavoriteColors}`);
+console.log("My friends favorite colors:", myBestFriendFavoriteColors, "My favorite colors:", favoriteColors);
